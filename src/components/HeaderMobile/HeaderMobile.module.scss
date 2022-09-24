@@ -1,66 +1,29 @@
 .headerMobile {
-    width: 100%;
-    border-bottom: 1px solid white;
+  width: 100%;
+  border-bottom: 1px solid white;
 }
 
 .headerTopContainer {
-    width: 100%;
-    height: 118px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px 20px 30px;
-    background-color: #353843;
+  width: 100%;
+  height: 118px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px 30px;
+  background-color: #353843;
 }
 
 .logo {
-    width: 44px;
-    height: auto;
-} 
+  width: 44px;
+  height: auto;
+}
 
 .ninjaLogo {
-    width: 147px;
-    height: auto;
+  width: 147px;
+  height: auto;
 }
 
 .hamMenu {
-    width: 26px;
-    height: auto;
-}
-
-// menu desplegable
-.headerBodyMobile {
-    display: none;
-    position: fixed;
-    top: 118px;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 100;
-    background-color: white;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    font-family: 'Archivo', sans-serif;
-}
-
-.headerBodyMobileOpen {
-    display: flex;    
-}
-
-.headerMobileMenuIteam {
-    border-bottom: 2px solid #bcbcbd;
-    font-weight: 800;
-    font-size: 1.25rem;
-    padding: 20px 0;
-    width: 100%;
-    cursor: pointer;
-    text-decoration: none;
-    color: black;
-}
-
-.headerMobileOutlinerItem {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+  width: 26px;
+  height: auto;
 }
