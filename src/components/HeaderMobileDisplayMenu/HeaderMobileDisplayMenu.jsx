@@ -1,5 +1,10 @@
 import React from "react";
 import styles from "./HeaderMobileDisplayMenu.module.scss"
+import twitterLogo from "@assets/header/twitter.svg"
+import openseaLogo from "@assets/header/opensea.svg"
+import discordLogo from "@assets/header/discord.svg"
+import mediumLogo from "@assets/header/medium.svg"
+
 
 export const HeaderMobileDisplayMenu = ({menu}) => {
   return (
@@ -19,35 +24,36 @@ export const HeaderMobileDisplayMenu = ({menu}) => {
       <a href="/" className={styles.headerMobileMenuIteam}>
         NST
       </a>
+
       <div className={styles.headerMobileOutlinerItem}>
-        <a href="/" className={styles.headerMobileMenuIteam}>
+        <a href="/" >
           BUY
         </a>
-        <img src="" alt="" />
+        <img src={openseaLogo} alt="opensea" className={styles.headerMobileSocialIcon}/>
       </div>
       <div className={styles.headerMobileOutlinerItem}>
-        <a href="/" className={styles.headerMobileMenuIteam}>
+        <a href="/" >
           TWITTER
         </a>
-        <img src="" alt="" />
+        <img src={twitterLogo} alt="Twitter" className={styles.headerMobileSocialIcon}/>
       </div>
       <div className={styles.headerMobileOutlinerItem}>
-        <a href="/" className={styles.headerMobileMenuIteam}>
+        <a href="/" >
           DISCORD
         </a>
-        <img src="" alt="" />
+        <img src={discordLogo} alt="" className={styles.headerMobileSocialIcon}/>
       </div>
       <div className={styles.headerMobileOutlinerItem}>
-        <a href="/" className={styles.headerMobileMenuIteam}>
+        <a href="/" >
           MEDIUM
         </a>
-        <img src="" alt="" />
+        <img src={mediumLogo} alt="" className={styles.headerMobileSocialIcon}/>
       </div>
-      <div>
+      <div className={styles.headerMobileFooter}>
         <a href="/">Contact</a>
         <a href="/">FAQ</a>
       </div>
-      <span>@2021 Ninja Squad NFT</span>
+      <span className={styles.headerMobileSignature}>@2021 Ninja Squad NFT</span>
     </div>
   );
 };

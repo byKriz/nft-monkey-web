@@ -18,7 +18,7 @@
 }
 
 .headerMobileMenuIteam {
-  border-bottom: 2px solid #bcbcbd;
+  border-bottom: 1px solid #bcbcbd;
   font-weight: 800;
   font-size: 1.25rem;
   padding: 20px 0;
@@ -32,4 +32,42 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+  border-bottom: 1px solid #bcbcbd;
+  padding: 20px 0;
+}
+
+.headerMobileOutlinerItem a {
+  font-family: "Archivo Bold", sans-serif;
+  font-weight: 800;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: black;
+}
+
+.headerMobileSocialIcon {
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+}
+
+.headerMobileFooter {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.headerMobileFooter a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.75rem;
+    font-family: "Questrial",sans-serif;
+}
+
+.headerMobileSignature {
+    font-family: "Questrial",sans-serif;
+    text-align: center;
+    width: 100%;
+    font-size: 0.75rem;
+
 }
