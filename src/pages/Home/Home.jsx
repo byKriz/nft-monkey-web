@@ -1,5 +1,5 @@
 import React from "react";
-import { HeroContainer } from "../../components/HeroContainer/HeroContainer";
+import { HeroContainer } from "../../containers/HeroContainer/HeroContainer";
 import styles from "./Home.module.scss"
 
 export const Home = () => {
