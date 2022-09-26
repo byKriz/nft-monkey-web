@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styles from "./StoryContainer.module.scss";
 import ninjaStoryIMG from "@assets/ninjaStory/ninja-story-img.png";
+import borderWhite from "@assets/ninjaStory/border-white.png"
 import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -54,6 +55,8 @@ export const StoryContainer = () => {
             <FaArrowRight />
           </Link>
         </div>
+        {/* esta imagen espara  el formato desktop */}
+        {/* <img src={borderWhite} alt="" className={styles.borderNinjaStory}/> */}
       </div>
     </section>
   );
