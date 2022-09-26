@@ -1,0 +1,124 @@
+.heroContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #31343f;
+  height: 470px;
+  padding: 0 20px;
+}
+
+.homeText {
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+  width: 90%;
+  color: #fff;
+  line-height: normal;
+  margin: 27px 0 0;
+}
+
+.homeHeroImg {
+  width: 346px;
+  height: auto;
+}
+
+.homeHeroImg img {
+  max-width: 100%;
+  height: auto;
+}
+
+.buyNowContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 332px;
+  height: 62px;
+  border-radius: 20px;
+  background-color: #f54748;
+  padding: 16px;
+  position: absolute;
+  bottom: -4.0625rem;
+  z-index: 10;
+  transition: all 0.3s;
+  top: 93%;
+}
+
+.homeHeroImgTextContainer {
+  display: flex;
+  align-items: center;
+}
+
+.buyNowImgContainer {
+  width: 63px;
+  height: auto;
+  margin-top: -30px;
+  margin-left: -10px;
+}
+
+.buyNowImgContainer img {
+  max-width: 100%;
+  height: auto;
+}
+
+.buyNowTextContainer {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  line-height: 1;
+  gap: 2px;
+}
+
+.buyNowTextContainer label {
+  font-size: 0.6875rem;
+  font-weight: 400;
+}
+
+.buyNowTextContainer span {
+  font-size: 1.125rem;
+  font-weight: 700;
+  font-family: "Archivo Bold", sans-serif;
+}
+
+.buttonMoreContainer {
+  background-color: #fff;
+  padding: 10px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  gap: 0.3125rem;
+}
+
+.buttonMoreContainer span {
+  font-size: 0.625rem;
+  color: #f54748;
+}
+
+.arrowRigh {
+  color: #f54748;
+  font-size: 0.625rem;
+}
+
+// el hover de cuadro de compra
+
+.buyNowContainerHover {
+  background-color: #fff;
+}
+
+.buyNowTextContainerHover {
+  color: #f54748;
+}
+
+.buttonMoreContainerHover {
+  background-color: #f54748;
+}
+
+.buttonMoreContainerHover span {
+  color: #fff;
+}
+
+.arrowRighHover {
+  color: #fff;
+}
