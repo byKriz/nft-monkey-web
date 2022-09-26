@@ -1,0 +1,79 @@
+.ninjaStoryContainer {
+  height: auto;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #f4f3ec;
+}
+
+.ninjaStoryImg {
+  width: 270px;
+}
+
+.ninjaStoryImg img {
+  width: 100%;
+}
+
+.ninjaStoryTextContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 66px;
+  transition: all 0.3s;
+}
+
+.ninjaStoryTextContainer h2 {
+  margin: 0;
+  font-family: "Archivo Bold", sans-serif;
+  font-weight: 800;
+  font-size: 1.75rem;
+}
+
+.ninjaStoryTextContainer p {
+  text-align: center;
+  font-family: "Questrial", sans-serif;
+  font-size: 0.8125rem;
+}
+
+.ninjaStoryButtomContainer {
+  display: flex;
+  height: 36px;
+  width: auto;
+  background-color: #f54748;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.ninjaStoryButtomContainer a {
+  text-decoration: none;
+  color: white;
+  padding: 12px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ninjaStoryButtomContainer a p {
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.ninjaStoryButtomContainer a svg {
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+// efecto hover para el boton de team
+.ninjaStoryButtomContainerHover {
+  background-color: #fff;
+}
+
+.ninjaStoryButtomContainerHover a {
+  color: #f54748;
+}
