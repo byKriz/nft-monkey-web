@@ -1,7 +1,10 @@
 import React from "react";
 import styles from "./NstContainer.module.scss";
 import { FaArrowRight } from "react-icons/fa";
-import nstLogo from "@assets/nstContainer/nst-logo.svg"
+import nstLogo from "@assets/nstContainer/nst-logo.svg";
+import nstBanner from "@assets/nstContainer/nst-banner.png";
+import nstMiniGraph from "@assets/nstContainer/nst-mini-graph.png";
+import { Link } from "react-router-dom";
 
 export const NstContainer = () => {
   return (
@@ -23,12 +26,12 @@ export const NstContainer = () => {
 
         <div className={styles.nstBody}>
           <div className={styles.nstBanner}>
-            <img src="" alt="" />
+            <img src={nstBanner} alt="nst banner" />
             <div className={styles.nstButtomContainer}>
-              <div className={styles.buyButtom}>
+              <Link to="/" className={styles.buyButtom}>
                 <span>BUY $NST / SUSHI-1INCH</span>
-              </div>
-              <img src="" alt="" />
+              </Link>
+              <img src={nstMiniGraph} alt="nst graph" />
             </div>
           </div>
           <div className={styles.ninjaOkContainer}>
@@ -40,7 +43,13 @@ export const NstContainer = () => {
               We built an off-chain mechanism so that you can use your tokens in
               return for utility,
               <span>without having to pay for gas!</span>
+              <br />
+              !poof just dropped that bomb on you.
             </span>
+            <div className={styles.buttomContainer}>
+              <span>EXPLORE</span>
+              <FaArrowRight />
+            </div>
           </div>
         </div>
       </div>
