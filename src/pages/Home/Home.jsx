@@ -1,5 +1,6 @@
 import React from "react";
 import { HeroContainer } from "../../containers/HeroContainer/HeroContainer";
+import { NstContainer } from "../../containers/NstContainer/NstContainer";
 import { StoryContainer } from "../../containers/StoryContainer/StoryContainer";
 import styles from "./Home.module.scss"
 
@@ -8,6 +9,7 @@ export const Home = () => {
     <div className={styles.homeContainer}>
         <HeroContainer />
         <StoryContainer />
+        <NstContainer />
     </div>
   );
 };
