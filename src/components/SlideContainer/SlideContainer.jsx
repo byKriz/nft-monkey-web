@@ -1,7 +1,12 @@
 import React from 'react'
+import styles from "./SlideContainer.module.scss"
+import { Swiper } from "swiper/react";
+import "swiper/css";
 
-export const SlideContainer = () => {
+export const SlideContainer = ({children}) => {
   return (
-    <div>SlideContainer</div>
+    <Swiper className={styles.slideContainer}>
+        {children}
+    </Swiper>
   )
 }
