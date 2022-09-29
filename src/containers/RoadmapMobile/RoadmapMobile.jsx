@@ -7,7 +7,9 @@ export const RoadmapMobile = () => {
   return (
     <section>
       <h2>Roadmap</h2>
-      <SlideContainer />
+      <SlideContainer>
+        
+      </SlideContainer>
       <ButtonContainer text="READ MORE" page="/" />
     </section>
   );
