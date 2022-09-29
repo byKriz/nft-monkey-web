@@ -1,8 +1,15 @@
 .roadmapMobileContainer {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    -webkit-mask-image: linear-gradient(90deg, #000 85%, transparent);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -webkit-mask-image: linear-gradient(90deg, #000 85%, transparent);
+
+  h2 {
+    font-family: "Archivo", sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    margin: 56px 0 32px;
   }
+}
