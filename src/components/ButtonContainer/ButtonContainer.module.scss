@@ -1,0 +1,28 @@
+.buttomContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: max-content;
+  border-radius: 5px;
+  padding: 12px 10px;
+  background-color: #f54748;
+  color: #fff;
+  transition: all 0.3s;
+  text-decoration: none;
+
+  span {
+    font-family: "Questrial", sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+  }
+
+  svg {
+    font-size: 12px;
+    margin-left: 5px;
+  }
+}
+
+.buttomContainer:hover {
+    background-color: #fff;
+    color: #f54748;
+}
