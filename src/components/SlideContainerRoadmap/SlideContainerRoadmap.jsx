@@ -4,7 +4,7 @@ import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { RoadmapMobileCard } from "../RoadmapMobileCard/RoadmapMobileCard";
 
-export const SlideContainerRoadmap = ({ children }) => {
+export const SlideContainerRoadmap = () => {
   return (
     <Swiper className={styles.slideContainer}>
       <SwiperSlide>
