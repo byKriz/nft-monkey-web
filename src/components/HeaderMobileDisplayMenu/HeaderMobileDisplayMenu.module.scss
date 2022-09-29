@@ -1,8 +1,8 @@
 .headerBodyMobile {
-  display: none;
+  display: flex;
   position: fixed;
   top: 118px;
-  left: 0;
+  left: -100%;
   width: 100%;
   height: 100%;
   z-index: 100;
@@ -11,10 +11,11 @@
   align-items: center;
   padding: 20px;
   font-family: "Archivo Bold", sans-serif;
+  transition: all 0.5s ease-in-out;
 }
 
 .headerBodyMobileOpen {
-  display: flex;
+  left: 0;
 }
 
 .headerMobileMenuIteam {
