@@ -1,5 +1,5 @@
 .RoadmapMobileCard {
-  min-width: 231px;
+  width: 231px;
   background-color: #1f222c;
   margin-right: 2rem;
   display: flex;
@@ -8,4 +8,49 @@
   padding: 16px 24px;
   border-radius: 10px;
   height: 180px;
+}
+
+.roadmapTopContainer {
+  display: flex;
+  align-items: center;
+}
+.roadmapIndex {
+  color: #fff;
+  font-size: 43px;
+  font-weight: 800;
+  margin-right: 24px;
+}
+
+.roadmapTitleYearContainer {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+.roadmapTitle {
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+.roadmapYear {
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.roadmapBottomContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+
+  img {
+    width: 45%;
+    margin-right: 16px;
+  }
+
+  .roadmapDescription {
+    font-family: "Questrial", sans-serif;
+    font-size: 9px;
+    font-weight: 300;
+  }
 }
