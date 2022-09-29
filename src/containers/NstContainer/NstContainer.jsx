@@ -4,6 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 import nstLogo from "@assets/nstContainer/nst-logo.svg";
 import nstBanner from "@assets/nstContainer/nst-banner.png";
 import nstMiniGraph from "@assets/nstContainer/nst-mini-graph.png";
+import borderDark from "@assets/nstContainer/border-dark.png";
 import { Link } from "react-router-dom";
 
 export const NstContainer = () => {
@@ -53,6 +54,7 @@ export const NstContainer = () => {
           </div>
         </div>
       </div>
+      <img src={borderDark} alt="" className={styles.borderDark}/>
     </section>
   );
 };
