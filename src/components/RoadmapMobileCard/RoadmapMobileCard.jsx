@@ -1,8 +1,9 @@
 import React from "react";
-import { SwiperSlide } from "swiper/react";
 import styles from "./RoadmapMobileCard.module.scss";
 
-export const RoadmapMobileCard = () => {
+export const RoadmapMobileCard = ({ img }) => {
+  const altname = (img) => `${img}`.split("/")[4];
+
   return (
     <div className={styles.RoadmapMobileCard}>
       <div className={styles.roadmapTopContainer}>
@@ -14,7 +15,7 @@ export const RoadmapMobileCard = () => {
       </div>
 
       <div className={styles.roadmapBottomContainer}>
-        <img src="" alt="" />
+        <img src={img} alt={altname(img)} />
         <span className={styles.roadmapDescription}>
           Our genesis 8,888 PFP collection launched and sold out within minutes.
         </span>
