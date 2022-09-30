@@ -9,23 +9,34 @@
   background-color: #eceef4;
   z-index: 1;
 
-  h2 {
-    margin-top: 0;
-  }
+  .utilityBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: -23vw;
 
-  .containerDescription {
-    font-family: "Questrial", sans-serif;
-    font-size: 12px;
-    padding: 0 13vw;
-    text-align: center;
-    margin: 1rem 0;
+    h2 {
+      margin-top: 0;
+    }
+
+    .containerDescription {
+      font-family: "Questrial", sans-serif;
+      font-size: 12px;
+      padding: 0 13vw;
+      text-align: center;
+      margin: 1rem 0;
+    }
   }
 }
 
 .boderUtility {
-  position: absolute;
-  top: 2608px;
+  position: relative;
+  top: -11vw;
+  left: 0;
   width: 100%;
+  height: auto;
   z-index: -1;
 }
 
