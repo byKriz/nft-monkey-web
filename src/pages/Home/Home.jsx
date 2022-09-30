@@ -3,6 +3,7 @@ import { HeroContainer } from "../../containers/HeroContainer/HeroContainer";
 import { NstContainer } from "../../containers/NstContainer/NstContainer";
 import { RoadmapMobile } from "../../containers/RoadmapMobile/RoadmapMobile";
 import { StoryContainer } from "../../containers/StoryContainer/StoryContainer";
+import { UtilitiesContainer } from "../../containers/UtilitiesContainer/UtilitiesContainer";
 import styles from "./Home.module.scss"
 
 export const Home = () => {
@@ -12,6 +13,7 @@ export const Home = () => {
         <StoryContainer />
         <NstContainer />
         <RoadmapMobile />
+        <UtilitiesContainer />
     </div>
   );
 };

@@ -1,0 +1,35 @@
+.UtilitiesContainer {
+  margin-top: 10vw;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #eceef4;
+  z-index: 1;
+
+  h2 {
+    margin-top: 0;
+  }
+
+  .containerDescription {
+    font-family: "Questrial", sans-serif;
+    font-size: 12px;
+    padding: 0 13vw;
+    text-align: center;
+    margin: 1rem 0;
+  }
+}
+
+.boderUtility {
+  position: absolute;
+  top: 2608px;
+  width: 100%;
+  z-index: -1;
+}
+
+.utilityTitle {
+  width: 100%;
+  padding: 0 40px;
+}
