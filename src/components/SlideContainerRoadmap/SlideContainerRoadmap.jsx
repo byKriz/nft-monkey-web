@@ -22,6 +22,17 @@ export const SlideContainerRoadmap = () => {
       pagination={{
         clickable: true,
       }}
+      breakpoints={{
+        500: {
+          // slidesPerView: 2,
+          slidesPerView: 3,
+          spaceBetween: 240,
+        },
+
+        600: {
+          spaceBetween: 140,
+        }
+      }}
     >
       <SwiperSlide>
         <RoadmapMobileCard
