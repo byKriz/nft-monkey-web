@@ -3,6 +3,7 @@ import styles from "./UtilitiesContainer.module.scss";
 import { ButtonContainer } from "../../components/ButtonContainer/ButtonContainer";
 import borderPng from "@assets/utilityContainer/utility-border-up.png";
 import utilityTitle from "@assets/utilityContainer/utility.png";
+import { UtilityCardMobile } from "../../components/UtilityCardMobile/UtilityCardMobile";
 
 export const UtilitiesContainer = () => {
   return (
@@ -24,6 +25,7 @@ export const UtilitiesContainer = () => {
           benefits. Join the best NFT & crypto traders to play, earn, learn and
           trade together.
         </p>
+        <UtilityCardMobile />
         <ButtonContainer text="JOIN NOW" page="/" />
       </div>
     </section>
