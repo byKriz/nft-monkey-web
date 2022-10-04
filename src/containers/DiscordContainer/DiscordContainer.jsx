@@ -1,6 +1,8 @@
 import React from "react";
 import { ExternalButtonContainer } from "../../components/ExternalButtonContainer/ExternalButtonContainer";
 import styles from "./DiscordContainer.module.scss";
+import borderPng from "@assets/discordContainer/join-discord-top-border.png"
+import discordImg from "@assets/discordContainer/join-discord.png"
 
 export const DiscordContainer = () => {
   return (
@@ -18,7 +20,10 @@ export const DiscordContainer = () => {
             secondColor={true}
           />
         </div>
-        <div></div>
+        <div className={styles.mobileJoinDiscordImage}>
+          <img src={borderPng} alt=""  className={styles.boder}/>
+          <img src={discordImg} alt="" className={styles.discordImg}/>
+        </div>
       </div>
     </section>
   );

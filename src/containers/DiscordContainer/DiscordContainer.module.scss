@@ -1,11 +1,12 @@
 .DiscordContainer {
-  padding-top: 80px;
+  padding-top: 3.125rem;
   background-color: #fff;
 }
 
 .DiscordInnerContainer {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .DiscordTextContainer {
@@ -28,4 +29,30 @@
     font-weight: 300;
     font-size: 14px;
   }
+}
+
+.mobileJoinDiscordImage {
+    width: 100%;
+    background-color: #2a2c36;
+    position: relative;
+    height: 140px;
+    margin-top: 8rem;
+    z-index: 3;
+
+    .boder {
+        width: 100%;
+        z-index: 1;
+        position: relative;
+        top:-3.125rem
+    }
+
+    .discordImg {
+        width: 80%;
+        position: relative;
+        z-index: 2;
+        margin: 0 auto;
+        top: -10.3125rem;
+        left: 10%;
+        
+    }
 }
