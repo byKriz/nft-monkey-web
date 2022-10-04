@@ -42,16 +42,16 @@
     .boder {
         width: 100%;
         z-index: 1;
-        position: relative;
+        position: absolute;
         top:-2.8125rem
     }
 
     .discordImg {
         width: 80%;
-        position: relative;
+        position: absolute;
         z-index: 2;
         margin: 0 auto;
-        top: -10.3125rem;
+        top: -7.1875rem;
         left: 10%;
         
     }
