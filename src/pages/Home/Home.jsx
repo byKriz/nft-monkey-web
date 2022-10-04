@@ -1,4 +1,5 @@
 import React from "react";
+import { DiscordContainer } from "../../containers/DiscordContainer/DiscordContainer";
 import { HeroContainer } from "../../containers/HeroContainer/HeroContainer";
 import { NstContainer } from "../../containers/NstContainer/NstContainer";
 import { RoadmapMobile } from "../../containers/RoadmapMobile/RoadmapMobile";
@@ -14,6 +15,7 @@ export const Home = () => {
         <NstContainer />
         <RoadmapMobile />
         <UtilitiesContainer />
+        <DiscordContainer />
     </div>
   );
 };
