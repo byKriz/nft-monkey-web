@@ -9,12 +9,33 @@ import hamburgerMenuClose from "../../assets/header/hamburger-close.svg";
 export const HeaderMobile = () => {
   const [menu, setMenu] = useState(false);
 
+  function moveToTopScroll() {
+    // Get the current page scroll position
+    // const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    const scrollLeft =
+      window.pageXOffset || document.documentElement.scrollLeft;
+
+    // if any scroll is attempted, set this to the previous value
+    window.scrollY = window.scrollTo(scrollLeft, 0)
+    
+  }
+
+  function enableScroll() {
+    // window.onscroll = function () {};
+  }
+
   const handleMenu = () => {
     setMenu(!menu);
+    if (menu) {
+      moveToTopScroll();
+    } else {
+      // enableScroll;
+      moveToTopScroll()
+    }
   };
 
   return (
-    <header className={styles.headerMobile}>
+    <header className={menu ? `${styles.headerMobile} ${styles.menuOpen}`: styles.headerMobile}>
       <div className={styles.headerTopContainer}>
         <a href="/">
           <img src={logoSVG} alt="logo" className={styles.logo} />
@@ -45,8 +66,7 @@ export const HeaderMobile = () => {
       </div>
 
       {/* menu despegable */}
-      <HeaderMobileDisplayMenu menu={menu}/>
-      
+      <HeaderMobileDisplayMenu menu={menu} />
     </header>
   );
 };

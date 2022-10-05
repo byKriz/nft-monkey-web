@@ -10,6 +10,13 @@
   align-items: center;
   padding: 50px 20px 30px;
   background-color: #353843;
+  // position: fixed;
+}
+.menuOpen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
 }
 
 .logo {
