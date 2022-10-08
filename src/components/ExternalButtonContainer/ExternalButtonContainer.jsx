@@ -10,6 +10,7 @@ export const ExternalButtonContainer = ({
   return (
     <a
       href={link}
+      target="_blank"
       className={
         secondColor
           ? `${styles.buttomContainer} ${styles.secondColor}`
