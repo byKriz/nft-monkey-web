@@ -4,7 +4,7 @@ import styles from "./ExternalButtonContainer.module.scss";
 
 export const ExternalButtonContainer = ({
   text,
-  link,
+  link="#",
   secondColor = false,
 }) => {
   return (
