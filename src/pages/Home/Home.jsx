@@ -1,6 +1,8 @@
 import React from "react";
+import { PruebaEspacio } from "../../components/PruebaEspacio/PruebaEspacio";
 import { DiscordContainer } from "../../containers/DiscordContainer/DiscordContainer";
 import { HeroContainer } from "../../containers/HeroContainer/HeroContainer";
+import { NinjaFamilyContainer } from "../../containers/NinjaFamilyContainer/NinjaFamilyContainer";
 import { NstContainer } from "../../containers/NstContainer/NstContainer";
 import { RoadmapMobile } from "../../containers/RoadmapMobile/RoadmapMobile";
 import { StoryContainer } from "../../containers/StoryContainer/StoryContainer";
@@ -16,6 +18,8 @@ export const Home = () => {
         <RoadmapMobile />
         <UtilitiesContainer />
         <DiscordContainer />
+        <NinjaFamilyContainer />
+        <PruebaEspacio />
     </div>
   );
 };

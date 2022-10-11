@@ -1,0 +1,28 @@
+.NinjaFamilyContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 2.5rem 0;
+}
+
+.NinjaFamilyContainerTitle {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 800;
+  color: #797c87;
+}
+
+.NinjaFamilyContainerSubtitle {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  margin: 24px 0;
+}
+
+.NinjaFamilyInnerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  z-index: 2;
+}

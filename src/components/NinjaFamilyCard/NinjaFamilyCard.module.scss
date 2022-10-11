@@ -1,0 +1,44 @@
+.NinjaFamilyCard {
+  margin-bottom: 1.5rem;
+  display: flex;
+  max-width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 25%;
+
+  img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    margin: 0;
+    font-weight: 800;
+    font-size: 1.125rem;
+    padding: 0 8px;
+  }
+}
+
+.NinjaFamilyInfo {
+  font-size: 0.8125rem;
+  font-family: "Questrial", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  margin: 16px 0;
+  padding: 0 8px;
+}
+
+.swiperContainer {
+  width: 50%;
+  background-color: #31343f;
+  padding: 4rem;
+  margin-bottom: 2rem;
+  border-radius: 20px;
+  
+  .mySwiper {
+    div {
+      font-size: 10px;
+    }
+  }
+}
